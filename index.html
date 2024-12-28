@@ -1,53 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>DILIP KHANAL Official Website</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="brp.jpg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">DILIP KHANAL</h1>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">B-tech Mechanical Engineering Student (Final Year)</p>
-                <nav>
-                    <a href="https://www.youtube.com/@dilip.khanal"><i class="fab fa-youtube"></i></a>
-                     <a href="https://x.com/iamdilipkhanal"><i class="fab fa-twitter "></i></a>
-                    <a href="https://www.facebook.com/iamdilipkhanal"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/dilip.khanal_"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/iamdilipkhanal/"><i class="fab fa-linkedin"></i></a>
-                </nav>
-              
-               
-            </div>
-        </header>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; 2024 Dilip Khanal</small></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilip Khanal - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">Dilip Khanal</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <img src="images/professional-photo.jpg" alt="Dilip Khanal" class="profile-photo">
+            <h1>Hi, I'm Dilip Khanal</h1>
+            <p class="typewriter">Mechanical Engineering Student | Innovator | Tech Enthusiast</p>
+            <a href="#about" class="btn">Learn More</a>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="gallery-tabs">
+            <button class="tab active" data-tab="family">Family & Relatives</button>
+            <button class="tab" data-tab="goodwill">Goodwill (Primary)</button>
+            <button class="tab" data-tab="mahendra">Mahendra (Secondary)</button>
+            <button class="tab" data-tab="nepal-mega">Nepal Mega (Higher Secondary)</button>
+            <button class="tab" data-tab="nit">NIT Trichy (University)</button>
+        </div>
+        <div class="gallery-content">
+            <div id="family" class="gallery-tab-content active">
+                <img src="images/family1.jpg" alt="Family Photo">
+                <img src="images/family2.jpg" alt="Family Photo">
+            </div>
+            <div id="goodwill" class="gallery-tab-content">
+                <img src="images/goodwill1.jpg" alt="Goodwill School">
+                <img src="images/goodwill2.jpg" alt="Goodwill School">
+            </div>
+            <div id="mahendra" class="gallery-tab-content">
+                <img src="images/mahendra1.jpg" alt="Mahendra School">
+                <img src="images/mahendra2.jpg" alt="Mahendra School">
+            </div>
+            <div id="nepal-mega" class="gallery-tab-content">
+                <img src="images/nepalmega1.jpg" alt="Nepal Mega College">
+                <img src="images/nepalmega2.jpg" alt="Nepal Mega College">
+            </div>
+            <div id="nit" class="gallery-tab-content">
+                <img src="images/nit1.jpg" alt="NIT Trichy">
+                <img src="images/nit2.jpg" alt="NIT Trichy">
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-cards">
+            <div class="card">
+                <h3>Materials Science</h3>
+                <p>Attended ASMP24 Conference.</p>
+            </div>
+            <div class="card">
+                <h3>Python on Sales Analysis</h3>
+                <p>Developed insightful visualizations for sales data.</p>
+            </div>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill">
+                <span>Python</span>
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill">
+                <span>Machine Learning</span>
+                <div class="skill-bar" style="width: 70%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>Integration of advanced nanomaterials into 3D printing technologies...</p>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/iamdilipkhanal" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@dilip.khanal" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/iamdilipkhanal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/iamdilipkhanal" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/dilip.khanal_" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Copyright &copy; 2024 Dilip Khanal. All rights reserved.</p>
+    </footer>
+</body>
 </html>

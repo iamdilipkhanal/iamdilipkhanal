@@ -3,165 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilip Khanal's Personal Website</title>
+    <!-- SEO Optimization -->
+    <meta name="description" content="Dilip Khanal | Mechanical Engineer transitioning to semiconductor innovation. Expertise in TCAD, ANSYS, and RF sputtering for optoelectronics and chip fabrication.">
+    <meta name="keywords" content="Semiconductor Process Engineer, TCAD Simulation, ZnO Homojunctions, Thermal Management">
+    <title>Dilip Khanal | Semiconductor Technology Innovator</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Global styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            position: relative;
-        }
-
-        header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header nav ul {
-            list-style: none;
-        }
-
-        header nav ul li {
-            display: inline;
-            margin-left: 20px;
-        }
-
-        header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        h2, h3 {
-            color: #333;
-        }
-
-        section {
-            padding: 40px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        footer .social-media {
-            margin-bottom: 10px;
-        }
-
-        footer .social-media a {
-            margin: 0 10px;
-            color: #fff;
-            text-decoration: none;
-        }
-
-        footer p {
-            margin-top: 10px;
-        }
-
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-        }
-
-        form button {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-
-        form button:hover {
-            background-color: #555;
-        }
-
-        /* About Me Image */
-        .about-image {
-            display: block;
-            margin-right: 20px; /* Space between image and text */
-            width: 100px; /* Adjust the size as needed */
-            height: 100px; /* Adjust the size as needed */
-            object-fit: cover;
-            border-radius: 50%; /* Optional, makes the image circular */
-            float: left; /* This moves the image to the left */
-        }
-
-        /* Portfolio Section */
-        #portfolio .portfolio-item {
-            margin-bottom: 30px;
-        }
-
-        #portfolio ul {
-            list-style: none;
-            padding-left: 20px;
-        }
-
-        #portfolio ul li {
-            margin-bottom: 10px;
-        }
-
-        /* Contact Form */
-        form label {
-            font-weight: bold;
-        }
-
-        form textarea {
-            resize: vertical;
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            header .container {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            header nav ul {
-                margin-top: 10px;
-            }
-
-            header nav ul li {
-                display: block;
-                margin-left: 0;
-                margin-top: 10px;
-            }
-
-            /* Ensure the image stays centered in smaller screens */
-            .about-image {
-                float: none;
-                display: block;
-                margin: 0 auto 20px;
-            }
-        }
-    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <!-- Header Section -->
     <header>
         <div class="container">
             <h1>Dilip Khanal</h1>
+            <p class="tagline">Mechanical Engineer | Semiconductor Technology Innovator</p>
             <nav>
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#about-me">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -170,69 +30,77 @@
 
     <!-- About Me Section -->
     <section id="about-me">
-        <!-- Image placed to the left of the About Me section -->
-        <img src="your-image.jpg" alt="Small Object" class="about-image">
+        <img src="your-image.jpg" alt="Dilip Khanal" class="about-image">
         <h2>About Me</h2>
-        <p>As a Mechanical Engineering student at NIT Trichy, I am passionate about exploring the intersection of Material Science, Energy, and IT to create innovative, sustainable technologies. My academic journey has equipped me with skills in computational modeling, energy systems, and programming, which I have applied to projects such as AI-driven material property prediction and smart grid optimization.</p>
-        <p>I thrive in interdisciplinary environments where I can merge my technical expertise with problem-solving creativity. My interests lie in developing advanced materials for renewable energy, leveraging AI for materials research, and contributing to smarter, more efficient energy systems.</p>
-        <p>Currently, I am actively seeking opportunities in research, internships, or collaborations that align with my goal of addressing global challenges in energy and sustainability. My curiosity, drive for innovation, and commitment to lifelong learning define my approach to work and learning.</p>
-
-        <h3>Life Phases</h3>
-        <!-- Add images from different phases of life -->
-        <div class="photo-carousel">
-            <!-- Insert your images here -->
-        </div>
+        <p>Final-year Mechanical Engineering student at NIT Tiruchirappalli transitioning into semiconductor innovation. Certified by IISc Bangalore and Samsung through the <strong>ISWDP program</strong>, I specialize in:</p>
+        <ul>
+            <li><i class="fas fa-microchip"></i> Semiconductor device fabrication (RF sputtering, TCAD simulations)</li>
+            <li><i class="fas fa-thermometer-half"></i> Thermal management solutions for microelectronics</li>
+            <li><i class="fas fa-atom"></i> Advanced materials for optoelectronics (ZnO homojunctions)</li>
+        </ul>
+        <p>Currently developing UV LEDs through ZnO p-n junction optimization while bridging mechanical engineering principles with semiconductor manufacturing challenges.</p>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <div class="portfolio-item">
-            <h3>Projects</h3>
-            <ul>
-                <li>Materials Science (attended ASMP24 conference)</li>
-                <li>Python on Sales Analysis</li>
-            </ul>
+        
+        <!-- Semiconductor Focus -->
+        <div class="project-category">
+            <h3><i class="fas fa-microchip"></i> Semiconductor Focus</h3>
+            <div class="portfolio-item">
+                <h4>ZnO Homojunctions for UV LEDs</h4>
+                <ul>
+                    <li>Optimizing Al/N₂ doping via RF magnetron sputtering</li>
+                    <li>Targeting 380 nm electroluminescence for sterilization devices</li>
+                    <li>Tools: Sentaurus TCAD, ANSYS Thermal Analysis</li>
+                </ul>
+            </div>
+            <div class="portfolio-item">
+                <h4>Graphene-PUA Composites (Springer Published)</h4>
+                <ul>
+                    <li>97.5% reduction in electrical resistance (200kΩ → 5kΩ)</li>
+                    <li>Applications: EMI shielding, flexible electronics</li>
+                </ul>
+            </div>
         </div>
-        <div class="portfolio-item">
-            <h3>Skills</h3>
-            <ul>
-                <li>Python</li>
-                <li>Machine Learning (ML)</li>
-                <li>HTML</li>
-                <li>CAD</li>
-                <li>Simulation</li>
-                <!-- Add more skills here -->
-            </ul>
-        </div>
-        <div class="portfolio-item">
-            <h3>Achievements</h3>
-            <ul>
-                <li>The Indian Council for Cultural Relations (ICCR) Scholarship (Issued by Indian Embassy, Kathmandu)</li>
-                <li>Mahatma Gandhi Scholarship 2019-2021 (Issued by the Indian Embassy Kathmandu for +2 science studies)</li>
-                <li>National Talent Hunt (Second place in inter-higher school competition)</li>
-            </ul>
+
+        <!-- Mechanical Engineering -->
+        <div class="project-category">
+            <h3><i class="fas fa-cogs"></i> Mechanical Engineering</h3>
+            <div class="portfolio-item">
+                <h4>Compact Heat Exchanger</h4>
+                <ul>
+                    <li>18°C temperature reduction through fin density optimization</li>
+                    <li>25% efficiency improvement</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Interests Section -->
-    <section id="interests">
-        <h2>Interests</h2>
-        <div>
-            <h3>Material Science</h3>
-            <p>Passionate about developing advanced materials for renewable energy solutions, aiming to enhance efficiency and sustainability.</p>
-        </div>
-        <div>
-            <h3>Energy Systems</h3>
-            <p>Focused on optimizing energy systems using cutting-edge technologies, with a special interest in renewable energy.</p>
-        </div>
-        <div>
-            <h3>Information Technology (IT)</h3>
-            <p>Exploring the intersection of IT and engineering, especially the application of AI and ML in materials science and energy systems research.</p>
-        </div>
-        <div>
-            <h3>Sustainability</h3>
-            <p>Dedicated to finding innovative solutions that address global energy production, distribution, and consumption challenges.</p>
+    <!-- Expertise Section -->
+    <section id="expertise">
+        <h2>Expertise</h2>
+        <div class="skill-category">
+            <h3><i class="fas fa-toolbox"></i> Technical Toolkit</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>Semiconductor Tools</h4>
+                    <ul>
+                        <li>Sentaurus TCAD</li>
+                        <li>RF Magnetron Sputtering</li>
+                        <li>Thin-Film Deposition</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h4>CAD/CAE</h4>
+                    <ul>
+                        <li>SolidWorks</li>
+                        <li>ANSYS</li>
+                        <li>MATLAB</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -257,15 +125,24 @@
     <footer>
         <div class="container">
             <div class="social-media">
-                <a href="https://www.facebook.com/iamdilipkhanal">Facebook</a>
-                <a href="https://www.youtube.com/@dilip.khanal">YouTube</a>
-                <a href="https://www.linkedin.com/in/iamdilipkhanal/">LinkedIn</a>
-                <a href="https://x.com/iamdilipkhanal">Twitter</a>
-                <a href="https://www.instagram.com/dilip.khanal_">Instagram</a>
+                <a href="https://www.facebook.com/iamdilipkhanal" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/@dilip.khanal" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/iamdilipkhanal/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/iamdilipkhanal" target="_blank" aria-label="Twitter/X">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/dilip.khanal_" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
             <p>&copy; 2024 <a href="index.html">Dilip Khanal</a></p>
         </div>
     </footer>
-
 </body>
 </html>

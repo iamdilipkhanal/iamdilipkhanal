@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dilip Khanal — Semiconductor & Computational Research</title>
-  <meta name="description" content="Research portfolio of Dilip Khanal: semiconductor TCAD, computational mechanics, materials, and multiphysics.">
+  <meta name="description" content="Dilip Khanal's research portfolio: 2.5D chiplet-interposer ANSYS thermo-mechanical modeling, experimentally calibrated semiconductor TCAD, and materials research.">
   <meta name="theme-color" content="#09110f">
   <meta property="og:title" content="Dilip Khanal — Research Portfolio">
   <meta property="og:description" content="Mechanical engineering applied to semiconductor devices, materials, and computational hardware.">
@@ -134,6 +134,7 @@
     .output p { color: var(--muted); margin: 0; }
     .output a { color: var(--acid); text-underline-offset: 4px; }
     .side-stack { display: grid; gap: 20px; }
+    .work-copy strong { font-weight: 700; }
 
     .timeline { display: grid; grid-template-columns: .72fr 1.28fr; gap: 80px; }
     .timeline-title { position: sticky; top: 110px; align-self: start; }
@@ -228,9 +229,10 @@
         <div>
           <div class="eyebrow">Spring 2027 master's candidate · Research portfolio</div>
           <h1>Mechanics to <span>semiconductors.</span></h1>
-          <p class="lede">I am Dilip Khanal, a mechanical engineering graduate building a computational research path across semiconductor devices, materials, and hardware reliability. My work starts with physical models and earns its confidence through experimental validation.</p>
+          <p class="lede">I am Dilip Khanal, a mechanical engineering graduate pursuing thermo-mechanical design and reliability of advanced 2.5D/3D semiconductor packaging, alongside experimentally calibrated device TCAD and materials research. I develop physics-based models, test their numerical limits, and distinguish simulation evidence from physical validation.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+            <a class="button primary" href="2p5d-packaging.html">Explore 2.5D ANSYS study <span aria-hidden="true">↗</span></a>
+            <a class="button" href="#work">All research projects</a>
             <a class="button" href="mailto:khanald2078@gmail.com">Email me</a>
           </div>
         </div>
@@ -238,8 +240,8 @@
           <div class="signal-head mono">Current research signal</div>
           <div class="signal-body">
             <div class="signal-row"><span class="signal-num">01</span><p>Physics-based TCAD calibrated against electrical measurements</p></div>
-            <div class="signal-row"><span class="signal-num">02</span><p>Computational mechanics, thermal transport, and multiphysics</p></div>
-            <div class="signal-row"><span class="signal-num">03</span><p>Material- and package-scale modelling for advanced hardware</p></div>
+            <div class="signal-row"><span class="signal-num">02</span><p>ANSYS global-to-local thermoelastic modelling for 2.5D chiplet–interposer packages</p></div>
+            <div class="signal-row"><span class="signal-num">03</span><p>Numerical sensitivity, model verification, and explicit research limitations</p></div>
           </div>
         </aside>
       </div>
@@ -264,21 +266,31 @@
       <div class="wrap">
         <div class="section-head reveal">
           <div class="kicker mono">02 / Selected work</div>
-          <div><h2>Evidence before claims.</h2><p class="section-intro">These projects show the progression from fabrication and characterization toward physics-based simulation and experimentally grounded modelling.</p></div>
+          <div><h2>Evidence before claims.</h2><p class="section-intro">From material fabrication and experimentally calibrated device models to ANSYS package-scale thermo-mechanics and qualified global-to-local sensitivity studies.</p></div>
         </div>
         <div class="work-list">
           <article class="work reveal">
             <div class="work-index mono">W.01</div>
+            <h3>2.5D chiplet–interposer package: global-to-local thermo-mechanical analysis</h3>
+            <div class="work-copy">
+              <p>Ongoing independent ANSYS research. Built a seven-body idealized global package model and displacement-driven three-body local elastic replica. Under a single-variable substrate CTE change (13.2→17.0 ppm/K), the model predicted a <strong style="color:var(--paper)">35.07% increase in the substrate-bottom out-of-plane displacement range</strong> and a <strong style="color:var(--paper)">13.35% increase in the selected local effective-layer interior stress metric</strong>.</p>
+              <p style="font-size:.84rem">Controlled numerical sensitivity only: no discrete solder fatigue or physical validation claimed.</p>
+              <p><a href="2p5d-packaging.html" style="color:var(--acid);text-underline-offset:4px">Read the ANSYS case study <span aria-hidden="true">↗</span></a></p>
+              <div class="tags"><span class="tag">ANSYS MECHANICAL</span><span class="tag">2.5D PACKAGING</span><span class="tag">THERMOELASTIC FEA</span><span class="tag">GLOBAL → LOCAL</span></div>
+            </div>
+          </article>
+          <article class="work reveal">
+            <div class="work-index mono">W.02</div>
             <h3>Frequency dispersion in ultrathin In₂O₃/HfO₂ MOS capacitors</h3>
             <div class="work-copy"><p>At National Taiwan University, I built and calibrated Silvaco Victory Device models against measured C–V and G<sub>p</sub>/ω data. The study showed that distributed bulk traps reproduced the observed frequency dispersion more convincingly than an interface-only explanation.</p><div class="tags"><span class="tag">SILVACO TCAD</span><span class="tag">C–V</span><span class="tag">Gₚ/ω</span><span class="tag">MODEL CALIBRATION</span></div></div>
           </article>
           <article class="work reveal">
-            <div class="work-index mono">W.02</div>
+            <div class="work-index mono">W.03</div>
             <h3>Graphene-reinforced PUA for stereolithographic 3D printing</h3>
             <div class="work-copy"><p>I worked across material preparation, SLA fabrication, mechanical and electrical testing, and characterization. Higher conductivity came with a real trade-off: graphene agglomeration reduced tensile and impact performance.</p><div class="tags"><span class="tag">NANOCOMPOSITES</span><span class="tag">SLA</span><span class="tag">MECHANICAL TESTING</span><span class="tag">CHARACTERIZATION</span></div></div>
           </article>
           <article class="work reveal">
-            <div class="work-index mono">W.03</div>
+            <div class="work-index mono">W.04</div>
             <h3>Hydrothermal ZnO nanowires for UV sensing</h3>
             <div class="work-copy"><p>I prepared seeded substrates, grew ZnO nanowires, and used FESEM and EDAX for characterization. Sparse nanowire coverage and substrate-dominated signals exposed the gap between a synthesis result and a reliable device.</p><div class="tags"><span class="tag">ZnO</span><span class="tag">HYDROTHERMAL GROWTH</span><span class="tag">FESEM</span><span class="tag">EDAX</span></div></div>
           </article>
@@ -300,6 +312,7 @@
           <div class="side-stack">
             <article class="output"><span class="output-label mono">OPTIC · 2025</span><h3>Ultra-fast 4-to-2 optoelectronics encoder</h3><p>Oral conference contribution; device-modelling and manuscript-preparation role.</p></article>
             <article class="output"><span class="output-label mono">NTU · 2025</span><h3>Internal TCAD research presentation</h3><p>Presented model calibration and interpretation during the TEEP research visit.</p></article>
+            <article class="output"><span class="output-label mono">Independent study · Oct 2026</span><h3>2.5D thermo-mechanical research case study</h3><p>Documented numerical verification, global-to-local submodeling, and substrate-CTE sensitivity. <a href="2p5d-packaging.html">View methods and findings ↗</a></p></article>
           </div>
         </div>
       </div>
@@ -309,6 +322,7 @@
       <div class="wrap timeline">
         <div class="timeline-title reveal"><div class="kicker mono">04 / Path</div><h2>Built across disciplines.</h2><p class="section-intro">A mechanical foundation, hands-on materials work, and a deliberate move into semiconductor modelling.</p></div>
         <div class="timeline-items reveal">
+          <article class="timeline-item"><time>OCT 2026 — ONGOING</time><h3>Independent research · Advanced 2.5D/3D packaging</h3><p>Documented an ANSYS 2.5D chiplet–interposer global-to-local thermoelastic study with a controlled substrate-CTE sensitivity comparison; physical validation and nonlinear interconnect fatigue remain future work. <a href="2p5d-packaging.html">See case study ↗</a></p></article>
           <article class="timeline-item"><time>2025 — 2026</time><h3>Research Visiting Student · National Taiwan University</h3><p>TEEP-funded research at the Graduate Institute of Photonics and Optoelectronics, focused on experimentally calibrated semiconductor TCAD.</p></article>
           <article class="timeline-item"><time>2025</time><h3>B.Tech., Mechanical Engineering · NIT Tiruchirappalli</h3><p>First Class, CGPA 7.03/10; final-semester SGPA 9.4/10. The degree was taught entirely in English.</p></article>
           <article class="timeline-item"><time>2024</time><h3>Oral Presenter · ASMP, IIT Madras</h3><p>Presented graphene–PUA nanocomposite research spanning additive manufacturing, mechanical response, and electrical performance.</p></article>
